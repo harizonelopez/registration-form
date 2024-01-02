@@ -1,6 +1,5 @@
 from tkinter import *
 
-
 root=Tk()
 
 root.title("@Dev_aladinh ")
@@ -50,5 +49,4 @@ Checkbtn.place(x=600, y=600)
 
 Button(text="Register",font=10, background="blue").place(x=600, y=650)
                
-
 root.mainloop()
