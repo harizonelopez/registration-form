@@ -4,7 +4,7 @@ import tkinter as tk
 root=Tk()
 
 root.title("@Dev_aladinh ")
-root.geometry( )
+root.geometry("1000x800")
 
 root.resizable(True,True)
 
