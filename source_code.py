@@ -4,19 +4,17 @@ import tkinter as tk
 root=Tk()
 root.title("@Dev_aladinh Production.")
 root.geometry("1000x800")
-
-root.resizable(True,True)
+root.resizable(False, False)
 
 def register_user():
     print("Congratts pall!!, you are succesfully registered to SIT101 unit course study program.")
 
 Label(root,text="SIT101 Course Unit Registration Form.", background = "gray", font="arial 30").place(x=400, y=60)
-
 Label(text="Name", font=30).place(x=100,y=150)
-Label(text="Registration Number", font=30).place(x=100,y=250)
+Label(text="Registration number", font=30).place(x=100,y=250)
 Label(text="Email", font=30).place(x=100,y=350)
 Label(text="Gender", font=30).place(x=100,y=550)
-Label(text="School of Study", font=30).place(x=100,y=450)
+Label(text="School of study", font=30).place(x=100,y=450)
 
 nameValue=StringVar()
 registrationnumberValue=StringVar()
