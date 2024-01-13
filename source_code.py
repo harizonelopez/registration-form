@@ -7,7 +7,7 @@ root.geometry("1000x800")
 root.resizable(False, False)
 
 def register_user():
-    print("Congratts pall!!, you are succesfully registered to SIT101 unit course study program.")
+    print("Congratts pall!!, you are succesfully registered to SIT104 unit course study programme.")
 
 Label(root,text="SIT101 Course Unit Registration Form.", background = "gray", font="arial 30").place(x=400, y=60)
 Label(text="Name", font=30).place(x=100,y=150)
