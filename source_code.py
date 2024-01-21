@@ -1,13 +1,20 @@
+# Dev_@ladinh production
+# a registration form
+
 from tkinter import *
 import tkinter as tk
 
 root=Tk()
 root.title("@Dev_aladinh Production.")
+root.config(bg="green")
 root.geometry("1000x800")
 root.resizable(False, False)
 
+def exit_app():
+    root.destroy()
+        
 def register_user():
-    print("Congratts pall!!, you are succesfully registered to SIT104 unit course study programme.")
+    print("Congratts pall!!, you are succesfully registered to SCS104 unit course study programme Semester 2.")
 
 Label(root,text="SIT101 Course Unit Registration Form.", background = "gray", font="arial 30").place(x=400, y=60)
 Label(text="Name", font=30).place(x=100,y=150)
@@ -44,5 +51,8 @@ Checkbtn.place(x=600, y=600)
 
 register_button = tk.Button(root, text="Register", font=10, background="blue", command = register_user)
 register_button.place(x=600, y=650)
+
+exit_button = tk.Button(root, text="EXIT", font=15, bg="red", command = exit_app)
+exit_button.place(x=600, y=700)
                
 root.mainloop()
