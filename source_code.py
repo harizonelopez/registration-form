@@ -1,5 +1,5 @@
 # Dev_@ladinh production
-# a registration form
+# a registration form which basically entails entering your data to the text entry fields prompted below the text field names
 
 from tkinter import *
 import tkinter as tk
@@ -10,7 +10,7 @@ root.config(bg="green")
 root.geometry("1000x800")
 root.resizable(False, False)
 
-def exit_app():
+def exit_app_logic():
     root.destroy()
         
 def register_user():
@@ -52,7 +52,7 @@ Checkbtn.place(x=600, y=600)
 register_button = tk.Button(root, text="Register", font=10, background="blue", command = register_user)
 register_button.place(x=600, y=650)
 
-exit_button = tk.Button(root, text="EXIT", font=15, bg="red", command = exit_app)
+exit_button = tk.Button(root, text="EXIT", font=15, bg="red", command = exit_app_logic)
 exit_button.place(x=600, y=700)
                
 root.mainloop()
