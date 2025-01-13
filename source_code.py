@@ -1,5 +1,5 @@
 # Dev_@ladinh production
-# a registration form which basically entails entering your data to the text entry fields prompted below the text field names
+# A registration form which allows the users to enter their entails and the data to the text entry fields prompted below the text field names
 
 from tkinter import *
 import tkinter as tk
